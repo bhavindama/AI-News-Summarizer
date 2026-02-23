@@ -17,9 +17,9 @@ Hi! This is my Python project that uses Artificial Intelligence to read long new
 ## 🚀 How to use it
 1. **Download the code** to your computer.
 2. **Install the requirements** (open your terminal and type):
-   ```bash
-3.  **pip install requests** beautifulsoup4 transformers torch
-     ** Run the script:** python main.py
+    pip install requests beautifulsoup4 transformers torch
+3. ** Run the script:
+   ** python main.py
 4.  Paste a URL from a news site and press Enter!
 
 **📈 Example**
