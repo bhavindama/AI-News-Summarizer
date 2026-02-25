@@ -51,7 +51,7 @@ if __name__ == "__main__":
         user_link = input("\n🔗 PASTE URL: ").strip()
         if user_link.lower() == 'exit': break
         
-        print("\n⏳ READING FULL ARTICLE AND GENERATING SUMMARY...")
+        print("\n⏳ READING FULL ARTICLE AND GENERATING SUMMARY....⏳")
         article_text = get_full_page_content(user_link)
         
         if "ERROR" in article_text or len(article_text) < 200:
@@ -71,4 +71,5 @@ if __name__ == "__main__":
             print("\n" + "-"*60)
         
         input("\n✅ Press ENTER to continue...")
+
         clear_screen()
